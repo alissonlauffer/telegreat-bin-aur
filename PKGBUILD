@@ -1,6 +1,6 @@
 # Maintainer: Yongmeng <yongmengkennyye@protonmail.com>
 pkgname=telegreat-bin
-pkgver=1.3.12
+pkgver=1.8.16
 pkgrel=1
 pkgdesc="Unofficial Telegreat Messaging app - Static binaries"
 arch=('x86_64')
@@ -28,7 +28,7 @@ source=(
 	$pkgname.desktop
 	tg.protocol
 	https://raw.githubusercontent.com/Sea-n/tdesktop/master/Telegram/Resources/art/icon{16,32,48,64,128,256,512}.png
-	https://telegre.at/tlinux/tsetup.${pkgver}.alpha.tar.xz
+	https://telegre.at/tlinux/tsetup.${pkgver}.tar.xz
 )
 # Checksums
 sha256sums=('5645e109f4eff2555306b5f866c6b0c0f1e7e2ac2569ba55e3f3bc73d46a5750'
@@ -40,7 +40,7 @@ sha256sums=('5645e109f4eff2555306b5f866c6b0c0f1e7e2ac2569ba55e3f3bc73d46a5750'
             'SKIP'
             'SKIP'
             'SKIP'
-            'f0f91bf6f3eb18f7814af1ea886319866f05efd4d8fb53a510ab9d627cb44725'
+            '0dcbb9c94c28f515212cd1e154c730e11199afc4a547e76105a19569b52305dc'
 )
 
 package() {
